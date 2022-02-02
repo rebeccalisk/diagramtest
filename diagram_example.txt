@@ -5,7 +5,7 @@ Robot --> MRI: Authentication Response
 Robot -> MRI: Another authentication Request
 Robot <-- MRI: Another authentication Response
 
-Slicer --> MRI: Imaging plane transform
+Slicer -> MRI: Imaging plane transform
 Slicer <-- MRI: Acknowledgement of transform
 
 @enduml
